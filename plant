@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Tradition</title>
+    <link rel="icon" type="image/jpg" href="img3.jpg" sizes="100x120">
+    <style>
+        .content{
+            height: 600px;
+            width:auto;
+            margin: 80px auto;
+            padding: 20px ;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #p-plant{
+            height:550px;
+            width: 350px;
+            padding-left: 30px;
+            padding-top: 30px;
+            padding-right: 5px;
+          
+        }
+        #p-plant:hover{
+                padding: 50px;
+                background-color: burlywood;
+                transition: 5s linear ease-in-out;
+                border: 3px solid black;
+                border-radius:50px;
+                box-shadow:6px 6px 8px black;
+            }
+        .inner{
+            height: 550px;
+            width: 350px;
+            margin-top: 30px;
+        }
+        .inner:hover{
+            padding: 10px;
+            background-color: white;
+            transition: 5s linear ease-in-out;
+            border: 3px solid black;
+            border-radius:50px;
+            box-shadow:6px 6px 8px black;
+        }
+
+        #pot-plant{
+            height:550px;
+            width: 350px;
+            padding-left: 5px;
+            padding-top: 30px;
+            padding-right: 10px;
+        }
+        #pot-plant:hover{
+                padding: 50px;
+                background-color: burlywood;
+                transition: 5s linear ease-in-out;
+                border: 3px solid black;
+                border-radius:50px;
+                box-shadow:6px 6px 8px black;
+            }
+
+        h4{
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 40px;
+            margin-top: 70px;
+            text-align: center;
+            font-style: italic;
+        }
+        h1{
+            text-align: center;
+            padding-top: 30px;
+            line-height: 40px;
+        }
+        p{
+            padding: 15px 20px;
+            text-align: center;
+            line-height: 30px;
+            font-size: larger;
+        }
+        button{
+            height: 35px;
+            width: 120px;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 20px;
+            border: 1px solid grey;
+            position: relative;
+            right: -100px;
+        }
+        button:hover{
+            height: 40px;
+            width: 150px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            font-size: 15px;
+            padding:5px;
+        }
+
+        @media screen and (max-width:768px){
+            .content{
+                height: 1500px;
+                width:280px;
+                margin: 30px auto;
+                margin-left: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+             #p-plant{
+                height:450px;
+                width: 255px;
+                padding: 40px;
+                margin-top: 30px;
+                border: 2px solid black;
+                box-shadow:6px 6px 8px black;
+            }
+           
+           .inner{
+                height: 520px;
+                width: 345px;
+            }
+
+            #pot-plant{
+                height:480px;
+                width: 260px;
+                padding: 40px;
+                margin-top: 10px;
+                border: 2px solid black;
+                box-shadow:6px 6px 8px black ;
+             }
+            h4{
+                font-family: 'Courier New', Courier, monospace;
+                padding-top: 40px;
+                margin-top: 10px;
+                text-align: center;
+                font-style: italic;
+            }
+            h1{
+                text-align: center;
+                padding-top: 10px;
+                line-height: 40px;
+            }
+            p{
+                padding: 15px 20px;
+                text-align: center;
+                line-height: 30px;
+                font-size: larger;
+            }
+            button{
+                height: 35px;
+                width: 120px;
+                padding: 5px;
+                margin: 10px;
+                border-radius: 20px;
+                border: 1px solid grey;
+                position: relative;
+                top: -20px;
+                right: -100px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+
+        <img src="img2.jpg" alt="plantain-plant" id="p-plant">
+    
+        <div class="inner">
+            <h4>NATURE TRADITION</h4>
+            <h1>Keep <br>
+                Your Love</h1>
+            <p>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.</p>
+            
+
+            <button><a href="#">READ MORE</a></button>
+        </div>
+
+        <img src="img1.jpg" alt="pot" id="pot-plant">
+
+
+       
+
+    </div>
+    
+</body>
+</html>
